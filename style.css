@@ -1,0 +1,140 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(252, 213, 181);
+  }
+
+.titolo {
+    font-size: 30px; 
+    padding: 20px 0; 
+    text-align: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25vw;
+  margin: 15px auto;
+}
+
+.nav li {
+    display: inline; 
+    margin: 0 10px; 
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.container {
+  text-align: center;
+}
+
+.info {
+  text-align: justify;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info p {
+  line-height: 1.5em; 
+}
+
+hr {
+  margin: 25px auto; 
+  width: 60%;
+  border-color: #ee8181;
+}
+
+h1 {
+  font-size: 22px; 
+}
+
+.legenda{
+  background-color: #edb7b7;
+  width: 25%;
+  border: 2px solid black;
+  margin-left: 38%;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.legenda h3 {
+  text-align: center;
+  font-size: 15px;
+  
+}
+
+.legenda li {
+  list-style: none; 
+  margin-left: 7px;
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+#rosso {
+  color: red;
+}
+
+#viola {
+  color: purple;
+}
+
+#verde {
+  color: green;
+}
+
+.immagine .img img{
+  width: 80%;
+  border-radius: 8px;
+}
+
+.immagine .img{
+  text-align: center;
+}
+
+.immagine {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  align-items: center;
+  margin: 50px auto;
+  background-color: #e7a368;
+  width: 80vw;
+  max-width: 1200px;
+  padding: 30px;
+  border-radius: 80px;
+  box-shadow: 10px 10px 10px #2b2b2b4a;
+}
+
+.cancellazioni {
+  text-decoration:line-through;
+}
+
+.persona {
+  color: red;
+}
+
+.luogo {
+  color: purple;
+}
+
+.unclear {
+  color: red;
+  text-decoration: underline green;
+}
+
+.expan{
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+.corr{
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}

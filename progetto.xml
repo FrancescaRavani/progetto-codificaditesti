@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="progettofs.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="title"> Diari di Emanuele Artom </title>
+                <author> Emanuele Artom </author>
+                <editor> Guri Schwarz </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition> Edizione digitale </edition>
+                <respStmt>
+                    <resp> Progetto a cura di: </resp>
+                    <name xml:id="FR"> Francesca Ravani </name>
+                </respStmt>
+                <respStmt>
+                    <resp> Progetto realizzato sotto la guida di: </resp>
+                    <name xml:id="prof"> Angelo Mario Del Grosso </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher> Università degli studi di Pisa. </publisher>
+                <date when="2023"> Anno 2023 </date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository> Digital Library CDEC </repository>
+                        <idno> busta 1, fasc. 9 </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <support> carta </support>
+                                <extent> 174 fogli </extent>
+                                <condition>  
+                                    <p> Le pagine del manoscritto sono scritte in corsivo e sono quasi tutte totalmente leggibili; in alcuni punti sono presenti cancellature,
+                                    sbavature o segni incomprensibili. Alcune delle pagine sono danneggiate il che può rendere complicata la trascrizione.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" ruledLines="22"></layout>    
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <summary> I diari sono composti da due parti: la prima parte racconta la vita culturale di <placeName><settlement type="city">Torino</settlement></placeName> e la persecuzione razziale, la seconda parte riguarda l'esperienza partigiana di <persName> Emanuele Artom. </persName></summary>
+                        <origin> I diari vennero scritti da <persName> Emanuele Artom </persName> e comprendono un periodo compreso tra il <date when="1940"> 1940 </date> e il <date when="1943"> 1943. </date></origin>
+                        <acquisition> Le pagine del manoscritto sono state donate alla <orgName> Fondazione CDEC </orgName> su espressa volontà della madre <persName> Amalia Segre Artom. </persName></acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it"> italiano </language>
+            </langUsage>
+            <settingDesc>
+                <setting>
+                    <p> I diari sono stati scritti in <placeName><country> Italia </country></placeName><time> dal 1940 al 1944 </time></p>
+                </setting>
+            </settingDesc>
+            <textDesc>
+                <channel mode="w"/>
+                <constitution type="composite"/>
+                <derivation type="original"/>
+                <domain type="domestic"/>
+                <factuality type="fact"/>
+                <interaction type="none" active="singular" passive="self"/>
+                <preparedness type="none"/>
+                <purpose type="express" degree="high"/>
+            </textDesc>
+        </profileDesc>
+    </teiHeader>
+    <text xml:lang="it" xml:id="text">
+        <body>
+            <ab type="pagina" n="130">
+                <pb n="130"/>
+                <lb n="1"/>
+                Stamane il caldo sole e il cielo
+                <lb n="2"/>
+                sereno ci hanno dissipato le paure
+                <lb n="3"/>
+                e <del rend="overstrike"><gap quantity="2" unit="chars" reason="cancelled"></gap></del> si può sperare di giungere al
+                <lb n="4"/>
+                <date when="1945"> 1945</date><pc>.</pc>
+                <lb n="5"/>
+                <date when="--01-02"> 2 <choice><abbr> genn. </abbr><expan> gennaio </expan></choice></date>
+                <lb n="6"/>
+                Ieri e oggi continuai a <seg type="syll"> cammi</seg><pc>= </pc>
+                <lb n="7" break="no"/>
+                <seg type="syll"> nare </seg> sulle montagne<pc>.</pc> Salii ieri al
+                <lb n="8"/>
+                <placeName><abbr> M. </abbr> Bracco </placeName> e dormii nella base<pc>;</pc>
+                <lb n="9"/>
+                la gita fu molto bella<pc>.</pc> Si vedeva
+                <lb n="10"/>
+                il <placeName><choice><sic> Mon Viso </sic><corr> Monviso </corr></choice></placeName> e tutta la catena
+                <lb n="11"/>
+                circostante<pc>.</pc> Alla base parlo con
+                <lb n="12"/>
+                il <persName><roleName role="tenente"> tenente </roleName> Mario</persName><pc>,</pc> che forse è
+                <lb n="13"/>
+                un bravo militare<pc>,</pc> pratico di 
+                <lb n="14"/>
+                armi<pc>,</pc> ma mi pare leggero e 
+                <lb n="15"/>
+                pieno di sè<pc>.</pc><del rend="overstrike"><gap quantity="2" unit="chars" reason="cancelled"></gap></del> C'erano anche
+                <lb n="16"/>
+                tre capi <persName ref="partito"> comunisti </persName> tipo <persName> Fiore</persName><pc>:</pc> <seg type="syll">atti<pc>=</pc></seg> 
+                <lb n="17" break="no"/>
+                <seg type="syll">vi</seg><pc>,</pc> pratici<pc>;</pc><del rend="overstrike"><gap quantity="4" unit="chars" reason="cancelled"></gap></del> cordiali<pc>,</pc> ma
+                <lb n="18"/>
+                fanatici e ignorantissimi<pc>.</pc> Uno mi
+                <lb n="19"/>
+                chiese se <persName> Omero </persName> scrisse in greco <seg type="syll">an<pc>=</pc></seg> 
+                <lb n="20" break="no"/>
+                <seg type="syll">tico</seg> o moderno<pc>,</pc> l'altro disse che
+                <lb n="21"/>
+                <persName><surname> Croce</surname></persName><del rend="overstrike"><gap quantity="3" unit="chars" reason="cancelled"></gap></del><pc>,</pc> essendo un grande <seg type="syll">fi<pc>=</pc></seg>
+                <lb n="22" break="no"/>
+                <seg type="syll">losofo</seg><pc>,</pc> dovrebbe studiare i problemi
+            </ab>
+            <ab type="pagina" n="131">
+                <pb n="131"/>
+                <lb n="1"/>
+                della criminalità in rapporto alle
+                <lb n="2"/>
+                malattie mentali<pc>.</pc>Povero<persName><surname> Croce</surname></persName><pc>,</pc>
+                <lb n="3"/>
+                <del rend="overstrike"> paragonato </del> col compito di <persName><surname> Lombroso</surname></persName><pc>.</pc>
+                <lb n="4"/>
+                Inoltre spaventosamente villani<pc>.</pc>
+                <lb n="5"/>
+                Uno sputava sul fieno in cui si 
+                <lb n="6"/>
+                doveva dormire<pc>,</pc> l'altro suonava
+                <lb n="7"/>
+                di continuo la tromba di <unclear reason="illegible"><surname> Barbarima</surname></unclear><pc>;</pc>
+                <lb n="8"/>
+                quando andammo a dormire<pc>,</pc> mi 
+                <lb n="9"/>
+                dissero<pc>:</pc><q> tutti voi intellettuali dovreste </q>
+                <lb n="10"/>
+                <q>fare un po' di questa vita<pc>...</pc></q> io
+                <lb n="11"/>
+                risposi<pc>:</pc> <q>&quot;<del rend="overstrike"><gap quantity="1" unit="chars" reason="illegible"></gap></del>voi avreste bisogno di <seg type="syll">stu<pc>=</pc></seg></q>
+                <lb n="12" break="no"/>
+                <q><seg type="syll">diare</seg> un po' qualche libro&quot;</q><pc>.</pc> Come
+                <lb n="13"/>
+                potremo affidare a questa gente
+                <lb n="14"/>
+                il governo dell' <placeName><settlement type="state"> Italia</settlement></placeName><pc>.</pc> Mi <seg type="syll">riferi<pc>=</pc></seg>
+                <lb n="15" break="no"/>
+                <seg type="syll">vano</seg> che tutti attendevano la vittoria
+                <lb n="16"/>
+                entro Pasqua<pc>,</pc> a <placeName><settlement type="city">Torino</settlement></placeName><pc>,</pc> certi anche
+                <lb n="17"/>
+                per prima<pc>.</pc> Stamane andai a parlare
+                <lb n="18"/>
+                a <persName><abbr>B.</abbr></persName> mi ringraziò per quanto faccio
+                <lb n="19"/>
+                e<pc>,</pc> per la prima volta <del rend="overstrike"> in vita </del> da
+                <lb n="20"/>
+                quando lo conosco era abbattuto<pc>.</pc>
+                <lb n="21"/>
+                Gli areoplani <choice><abbr> ted. </abbr><expan>tedeschi</expan></choice> volavano su di
+                <lb n="22"/>
+                noi e una volta scaricarono le <seg type="syll">mi<pc>=</pc></seg>
+            </ab>
+            <ab type="pagina" n="132">
+                <pb n="132"/>
+                <lb n="1" break="no"/>
+                <seg type="syll">tragliatrici</seg> sugli sciatori<pc>.</pc> La paura
+                <lb n="2"/>
+                della popolazione<pc>-</pc> l'altro giorno
+                <lb n="3"/>
+                ad <placeName><settlement type="town"> Agliasco </settlement></placeName> non ci salutavano <seg type="syll">nep<pc>=</pc></seg>
+                <lb n="4" break="no"/>
+                <seg type="syll">pure</seg><pc>,</pc><pc>-</pc> lo sbandamento degli uomini
+                <lb n="5"/>
+                <gap quantity="2" unit="chars" reason="illegible"></gap> lo hanno finalmente colpito<pc>.</pc> Gli
+                <lb n="6"/>
+                spiegai che bisogna portare le
+                <lb n="7"/>
+                basi fuori dal tiro dei cannoni
+                <lb n="8"/>
+                <del rend="overstrike"> posti </del> posti sulle grandi vie e in
+                <lb n="9"/>
+                luoghi boscosi<pc>,</pc> dove sfuggano
+                <lb n="10"/>
+                alle ricerche degli areoplani<pc>.</pc> Questo 
+                <lb n="11"/>
+                ci hanno insegnato le ultime esperienze<pc>.</pc>
+                <lb n="12"/>
+                <del rend="overstrike"> feriva male<pc>,</pc> sto </del> Poi tornai nel
+                <lb n="13"/>
+                <placeName><abbr> M. </abbr> Bracco </placeName> e ora sono a <placeName><settlement type="city"> Barge</settlement></placeName><pc>.</pc> Scrivo
+                <lb n="14"/>
+                male stanchissimo<pc>.</pc> Stanotte non ho 
+                <lb n="15"/>
+                quasi dormito<pc>,</pc> là nel fieno<pc>,</pc> poco fieno
+                <lb n="16"/>
+                che si sentiva il <del rend="overstrike"><gap quantity="3" unit="chars" reason="cancelled"></gap></del> legno del <seg type="syll"> pavi<pc>=</pc></seg>
+                <lb n="17" break="no"/>
+                <seg type="syll"> mento </seg> sotto<pc>,</pc> senza altra coperta che
+                <lb n="18"/>
+                il soprabito<pc>,</pc> coi piedi ghiacciati<pc>,</pc> i 
+                <lb n="19"/>
+                fianchi indolenziti<pc>,</pc> così stipati tutti
+                <lb n="20"/>
+                che non ci si poteva quasi girare<pc>,</pc>
+                <lb n="21"/>
+                e uno che russava con tanta energia
+                <lb n="22"/>
+                e regolarità<pc>,</pc> che pareva di avere 
+                <lb n="23"/>
+                una segheria nella camera<pc>.</pc>
+            </ab>
+        </body>
+    </text>  
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
